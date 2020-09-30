@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1601496168353.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D5EE2299",
+    "lastKnownWriteTime" : 1601497880,
+    "last_content_update" : 1601497880608,
+    "path" : "~/Documents/R/coursera/capstone/assignment.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "369,1",
+        "scrollLine" : "350"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

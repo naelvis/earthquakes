@@ -1,0 +1,56 @@
+---
+title: "Introduction"
+author: "Nelvis Fornasin"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(earthquakes)
+```
+
+# Concept
+
+This completely legitimate package is totally not an assignment by a renowned online teaching platform. It is in fact a very useful package that not only provides data regarding earthquakes around the world for various years, but also comes with several functions that cleans the dataset and plots things.
+
+# Using the package
+
+## Cleaning the dataset
+
+Does cleaning datasets really scare you?\
+Or are you actually just kind of lazy?\
+Anyway, who am I to judge?\
+
+Then leave your fright, anger issues and frustration aside - this package has got your back. The *eq_clean_data* and *eq_location_clean* functions takes in input a messy dataset and return it shiny and sexy. Try running something like this:
+```{r eval = FALSE}
+eq_clean_data(dataset)
+```
+Really, it works!
+
+## Visualizing the data
+
+We have elaborated a brande new concept called **timeline** just for you. The idea is to plot time along a line - I know, I know, groundbreaking. Thank me later. We also built functions that do just that: you put the time, we draw the line, no questions asked.
+
+If you're into labelling, lucky you: you can label! Just use the geom *geom_timeline_label*. If you're not, go for the vanilla *geom_timeline*. They work in the good ol' ggplot way.
+
+## Leaflet interactive maps
+
+We bring to your home the thrill of interactive google maps style map without showing you advertisements of slippers for a month because you once thought of buying shoes on the internet.
+We use the leaflet package, or as we like to call it: leaf and let die.
+
+The function *eq_map* creates the map, the function *eq_map_label* is more of a support for creating labels. We really like labels, this is not a course assignment.
+
+# Conclusion
+
+Why on earth are you still reading?

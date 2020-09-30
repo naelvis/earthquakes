@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1601496079747.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3601090332",
+    "id" : "D33CD4DE",
+    "lastKnownWriteTime" : 1601497334,
+    "last_content_update" : 1601497335001,
+    "path" : "~/Documents/R/coursera/capstone/earthquakes/R/hello.R",
+    "project_path" : "R/hello.R",
+    "properties" : {
+        "cursorPosition" : "224,0",
+        "scrollLine" : "231"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
