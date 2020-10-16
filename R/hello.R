@@ -93,7 +93,7 @@ GeomTimeline <- ggproto("GeomTimeline", Geom,
                                           alpha = 0.5,
                                           xmin = -Inf,
                                           xmax = +Inf),
-                        draw_key = draw_key_point,
+                        draw_key = ggplot2::draw_key_point,
                         draw_panel = function(data, panel_params, coord) {
 
                           data %<>% filter(x >= xmin,
@@ -167,7 +167,7 @@ GeomTimelineLabel <- ggproto("GeomTimelineLabel", Geom,
                                                angle = 45,
                                                nmax = 10000,
                                                size = 1),
-                             draw_key = draw_key_point,
+                             draw_key = ggplot2::draw_key_point,
                              draw_panel = function(data, panel_params, coord) {
 
                                plot_data <- data %>%
