@@ -9,3 +9,10 @@ License: GPL-2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+Imports: dplyr, ggplot2, graphics, grid, leaflet, maps, readr, tidyr, testthat, magrittr, stringr
