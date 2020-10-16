@@ -85,7 +85,7 @@ eq_location_clean <- function(x) {
 
 GeomTimeline <- ggproto("GeomTimeline", Geom,
                         required_aes = c("x"),
-                        default_aes = aes(y = 0,
+                        default_aes = ggplot2::aes(y = 0,
                                           size = 1,
                                           colour = "Black",
                                           fill = "Black",
@@ -163,7 +163,7 @@ geom_timeline <- function(mapping = NULL, data = NULL, stat = "identity",
 
 GeomTimelineLabel <- ggproto("GeomTimelineLabel", Geom,
                              required_aes = c("x", "label"),
-                             default_aes = aes(y = 0,
+                             default_aes = ggplot2::aes(y = 0,
                                                angle = 45,
                                                nmax = 10000,
                                                size = 1),
